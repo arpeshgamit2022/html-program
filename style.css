@@ -1,0 +1,194 @@
+
+/*Reset CSS*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    color: #424242;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif, 'Poppins', sans-serif;
+}
+
+/*Common CSS*/
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+h1 {
+    color: #27CBFF;
+    font-size: 82px;
+    text-transform: uppercase;
+}
+
+.common-pragraph {
+    color: #424242;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.common-upp {
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+h2 , a ,p {
+    font-size: 36px;
+}
+
+.common-pad {
+    padding: 25px 15px;
+}
+
+.list-font {
+    font-size: 24px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;  
+}
+
+button:hover, a:hover {
+    color: pink;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.lists {
+    width: 100%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    font-style: italic;
+    padding: 10px;
+}
+
+.common-margin {
+     margin-bottom: 15px;
+}
+
+.list-line {
+    margin-left: 40px;
+}
+
+.interest-pad {
+    padding: 20px;
+}
+
+.common-input {
+    width: 100%;
+    height: 50px;
+    color: #ADADAD;
+    padding: 20px;
+}
+
+.fa-icons {
+    color: white;
+    border-radius: 40px;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    float: left;
+}
+
+/*Header CSS*/
+#header-section {
+    padding: 40px 15px;
+}
+
+.information {
+    text-align: center;
+}
+
+/*Main Section CSS*/
+#Main-section .about-me {
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+#skills-section .languages {
+    list-style-type: none;
+}
+
+#skills-section .html {
+    background-color: #2FDAFF;
+    margin-bottom: 15px;
+
+}
+
+#skills-section .css {
+    background-color: #2F69FF;
+
+}
+
+#skills-section .bootstrap {
+    background-color: #C92FFF;
+
+}
+
+#skills-section .php {
+    background-color: #FF2F93;
+
+}
+
+#skills-section .wordpress {
+    background-color: #FF9F2F;
+}
+
+table {
+    border: 1px solid #000000;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px;
+    border: 1px solid;
+    text-align: justify;
+}
+
+#interest-section .interest {
+    color: #0656F0;
+}
+
+#interest-section .interest-border {
+    border-style: dotted;
+    color: #000000;
+}
+
+#language-section .language {
+    color: #6D06F0;
+}
+
+#language-section .language-division {
+    background-color: #F4F7FA;
+}
+
+textarea {
+    width: 100%;
+    padding: 20px;
+}
+
+button {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 50px;
+    width: 200px;
+}
+
+
+/*footer Section*/
+#footer-section .fa-facebook {
+    background: #3B5998;
+}
+
+#footer-section .fa-linkedin {
+    background: #007bb5;
+    margin-left: 10px;
+} 
